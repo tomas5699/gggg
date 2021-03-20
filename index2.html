@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preregistros</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mi_estilo.css">
+    <link rel="stylesheet" type="text/css" href="formu2.css">
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+
+</head>
+
+<body style="background-color:#FF0000;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-mi-menu">
+        <a class="navbar-brand" href="#">Mi sitio Web de prueba</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="paginaprue.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Preregistros.html">Preregistros de Ragnarok</a>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <br>
+
+
+
+
+    <!-- Formulario -->
+    <div class="form">
+        <h1 class="display-4">Preregistros</h1>
+        <p class="lead">Formulario de Preregistros</p>
+
+        <form action="conexion.php" method="post">
+            <label for="nombre"><center>Nombre</center></label>
+            <input type="text" name="nombre" placeholder="Nombre" required="">
+
+            <label for="nombre"><center>Apellido</center></label>
+            <input type="text" name="apellido" placeholder="Apellido" required="">
+            <br>
+            <br>
+            <label for="nombre"><center>Correo Electronico</center></label>
+            <input type="email" name="correo" placeholder="ejemplo@gmail.com" id="inputEmail4">
+
+            <label for="contraseña"><center>Contraseña</center></label>
+            <input type="password" name="contraseña" placeholder="password" id="inputPassword4">
+
+            <br>
+            <br>
+            <label for="edad"><center>Edad</center></label>
+            <input type="text" name="edad" placeholder="Edad" required="">
+            <br>
+            <br>
+            <label for="numTarjeta"><center>Numero de Tarjeta</center></label>
+            <input type="text" name="numTarjeta" placeholder="NumTarjeta" required="">
+            <br>
+            <br>
+            <label for="ciudad"><center>Ciudad</center></label>
+            <input type="text" name="ciudad" placeholder="Ciudad" required="">
+            <label for="codigoPostal"><center>Codigo Postal</center></label>
+            <input type="text" name="codigoPostal" placeholder="cod.Postal" required="">
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Aceptar">
+
+        </form>
+    </div>
+    <!-- fin de Formulario -->
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.img-card {
+    width: 100px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.tamanho-card {
+    width: 18rem;
+}
+
+.bg-mi-menu {
+    background: #09a7b2;
+}
+
+.esq-r {
+    border-radius: 20px;
+}
+
+.formulario {
+    width: 20%;
+    background-color: blue;
+}
+
+.centrar {
+    margin: auto;
+}
